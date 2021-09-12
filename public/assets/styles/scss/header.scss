@@ -31,7 +31,7 @@ header {
       span {
         font-weight: 400;
         letter-spacing: 1px;
-        font-size: 1.2em;
+        font-size: 4em;
         color: #fff;
         @media (max-width: 480px) {
           font-size: 1em;
@@ -52,6 +52,7 @@ header {
       margin: 0;
       padding: 0;
       text-align: right;
+      background: #0c0c0c;
     }
     li {
       display: inline-block;
@@ -59,7 +60,7 @@ header {
         color: #aaa;
         font-weight: 400;
         margin-left: 60px;
-        font-size: 1em;
+        font-size: 1.5em;
         position: relative;
         transition: 0.25s cubic-bezier(0.75, 0.25, 0.25, 0.75);
         @media (max-width: 768px) {

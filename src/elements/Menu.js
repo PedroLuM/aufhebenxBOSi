@@ -1,7 +1,11 @@
 import React from 'react'
 import { useLocation, Link } from 'react-router-dom'
+import Navbar from 'react-bootstrap/Navbar'
+import Container from 'react-bootstrap/Container'
 
 function Menu() {
+
+
 
     const location = useLocation();
     const menuLinks = [
@@ -34,9 +38,16 @@ function Menu() {
     const displayLinks = menuLinks.map((link, i) => <li key={i}><Link to={link.url} className={location.pathname === link.url ? 'active' : null}>{link.name}</Link></li>)
 
     return (
-        <ul className="main-menu">
-            {displayLinks}
-        </ul>
+        <Navbar collapseOnSelect expand="lg" variant="dark">
+            <Container>
+                <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                <Navbar.Collapse id="responsive-navbar-nav">
+                    <ul className="main-menu">
+                        {displayLinks}
+                    </ul>
+                </Navbar.Collapse>
+            </Container>
+        </Navbar>
     )
 
 }

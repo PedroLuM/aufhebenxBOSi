@@ -6,10 +6,9 @@ import Hero from '../components/Hero'
 import Header from '../components/Header'
 import Works from '../components/Works'
 import Footer from '../components/Footer'
-import { Button, ButtonGroup } from "@chakra-ui/react"
-import { Stack } from "@chakra-ui/react"
-import { ArrowForwardIcon } from '@chakra-ui/icons'
-import { Image } from "@chakra-ui/react"
+import Button from 'react-bootstrap/Button'
+import HomeGrid from '../components/HomeGrid';
+
 
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 gsap.registerPlugin(ScrollTrigger);
@@ -58,17 +57,10 @@ function Home() {
             <Hero>
                 <h1 ref={el => titleAnim = el} className="sub-title">Dream bigger,   <br /> Create together   </h1>
                 <h3 ref={el => subtitleAnim = el} className="big-title">We come to provide the best solutions for art <br /> services to the game, vr/ar, and film industries.</h3>
-                <div>
-                    <Stack direction="row" spacing={4}>
-                        <Button colorScheme="green" variant="outline">
-                            SEE LATEST
-                        </Button>
-                        <Button rightIcon={<ArrowForwardIcon />} colorScheme="teal" variant="outline">
-                            Get Started
-                        </Button>
-                    </Stack>
-                </div>
+                <Button variant="outline-success" href="/Portfolio" size="lg">SEE LATEST</Button>
+                <Button variant="light" href="/contact" size="lg">Getting Started⇀</Button>
             </ Hero>
+            <HomeGrid />
             <Works />
             <Footer />
         </div>
