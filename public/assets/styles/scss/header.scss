@@ -3,12 +3,13 @@
 header {
   padding: 4vw 0px 0px 0px;
   position: absolute;
+  border-radius: 1.5em;
   top: 0;
   left: 0;
   width: 100%;
   height: auto;
   z-index: 999;
-  background: transparent;
+  background-color: #5ef249;
   @media (max-width: 768px) {
     padding: 7vw 0 0 0;
   }
@@ -29,10 +30,10 @@ header {
         }
       }
       span {
-        font-weight: 400;
-        letter-spacing: 1px;
-        font-size: 4em;
-        color: #fff;
+        font-weight: 800;
+        letter-spacing: 1.5px;
+        font-size: 6em;
+        color: rgb(0, 0, 0);
         @media (max-width: 480px) {
           font-size: 1em;
         }
@@ -52,15 +53,15 @@ header {
       margin: 0;
       padding: 0;
       text-align: right;
-      background: #0c0c0c;
+      background-color: #5ef249;
     }
     li {
       display: inline-block;
       a {
-        color: #aaa;
-        font-weight: 400;
+        color: rgb(0, 0, 0);
+        font-weight: 500;
         margin-left: 60px;
-        font-size: 1.5em;
+        font-size: 2em;
         position: relative;
         transition: 0.25s cubic-bezier(0.75, 0.25, 0.25, 0.75);
         @media (max-width: 768px) {
@@ -74,7 +75,7 @@ header {
           content: "";
           height: 1px;
           width: 0%;
-          background: #0cb631;
+          background: #5ef249;
           position: absolute;
           left: auto;
           right: 0;

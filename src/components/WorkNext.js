@@ -1,9 +1,9 @@
 import React from 'react'
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 function WorkNext(props) {
 
-    return(
+    return (
         <section id="projectNext" className="section">
             <div className="container-fluid-small">
                 <div className="row">
@@ -15,7 +15,7 @@ function WorkNext(props) {
                             :
                             <h1 className="big-title">
                                 <Link to={`works-${props.link}`}>
-                                    Next project
+                                    LOAD MORE STUFF ╋
                                 </Link>
                             </h1>
                         }

@@ -25,17 +25,17 @@ function AboutText() {
 
                     <div className="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-3 story-bottom anim-bot">
                         <ul>
-                            <li>7 Years of Experience</li>
+                            <li>15 Years of Experience</li>
                             <li>22 Completed Projects</li>
-                            <li>41 Happy Customers</li>
+                            <li>114 Happy Customers</li>
                         </ul>
                     </div>
 
                     <div className="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-3 story-bottom anim-bot">
                         <ul>
-                            <li>Award Winning Game Agency</li>
-                            <li>Aesthetics Oriented Team</li>
-                            <li>Marketing Strategy Experts</li>
+                            <li>The BOSi team consists of over 300 employees</li>
+                            <li> Our global business is mainly focused into 2 areas ↓ </li>
+                            <li>Art training institute and art outsourcing services</li>
                         </ul>
                     </div>
 

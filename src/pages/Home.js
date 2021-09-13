@@ -8,6 +8,7 @@ import Works from '../components/Works'
 import Footer from '../components/Footer'
 import Button from 'react-bootstrap/Button'
 import HomeGrid from '../components/HomeGrid';
+import AboutText from '../components/AboutText'
 
 
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
@@ -62,6 +63,7 @@ function Home() {
             </ Hero>
             <HomeGrid />
             <Works />
+            <AboutText />
             <Footer />
         </div>
     )

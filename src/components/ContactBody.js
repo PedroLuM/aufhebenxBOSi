@@ -47,7 +47,7 @@ function ContactBody() {
                             </div>
 
                             <div className="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 copyright">
-                                <p>Copyright © {date} Strada Creative. <br /> Built with love by Peter.</p>
+                                <p>Copyright © {date} Aufheben. <br /> Built with love by Peter.</p>
                                 <div className="footer-menu">
                                     <ul>
                                         {socialLinks.map((item, i) => <li key={i}><a href={item.url}>{item.name}</a></li>)}
