@@ -10,7 +10,7 @@ function AboutText() {
 
                     <div className="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6 story-left anim-bot">
                         <h2 className="big-title anim-bot">We're a bunch of design <br /> passionate folks.</h2>
-                        <Link to='/'>View projects</Link>
+                        <Link to='/'>View projects →</Link>
                     </div>
 
                     <div className="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6 story-right anim-right">

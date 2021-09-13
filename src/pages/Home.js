@@ -11,7 +11,11 @@ import HomeGrid from '../components/HomeGrid';
 import AboutText from '../components/AboutText'
 
 
+
+
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import GridText from '../components/GridText';
+
 gsap.registerPlugin(ScrollTrigger);
 
 function Home() {
@@ -58,11 +62,12 @@ function Home() {
             <Hero>
                 <h1 ref={el => titleAnim = el} className="sub-title">Dream bigger,   <br /> Create together   </h1>
                 <h3 ref={el => subtitleAnim = el} className="big-title">We come to provide the best solutions for art <br /> services to the game, vr/ar, and film industries.</h3>
-                <Button variant="outline-success" href="/Portfolio" size="lg">SEE LATEST</Button>
-                <Button variant="light" href="/contact" size="lg">Getting Started⇀</Button>
+                <Button variant="outline-success" href="/Portfolio" size="sm">SEE LATEST</Button>
+                <Button variant="light" href="/contact" size="sm">Getting Started →</Button>
             </ Hero>
-            <HomeGrid />
             <Works />
+            <GridText />
+            <HomeGrid />
             <AboutText />
             <Footer />
         </div>

@@ -1,6 +1,6 @@
-import React, {useEffect} from 'react'
+import React, { useEffect } from 'react'
 
-function ScrollTop(){
+function ScrollTop() {
 
     useEffect(() => {
         window.onscroll = () => {
@@ -16,7 +16,7 @@ function ScrollTop(){
                 anchorDown.removeAttribute('href')
             }
 
-            if(top >= 1000) {
+            if (top >= 1000) {
                 scrollDown.classList.add('scroll-top-active')
             } else {
                 scrollDown.classList.remove('scroll-top-active')
@@ -24,9 +24,9 @@ function ScrollTop(){
         }
     }, [])
 
-    return(
+    return (
         <div id="scroll-id" className="scroll-down">
-            <h5>Scroll Down</h5>
+            <h5>Scroll Down to know BOSi</h5>
             <div className="scroll-arrow">
                 <a href="/" id="a-down">
                     <span className="line line-h"></span>

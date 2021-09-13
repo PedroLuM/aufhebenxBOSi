@@ -8,7 +8,7 @@ function Services(props) {
         {
             icon: 'eye-alt',
             name: ' Game UI/UX Design',
-            list: ['Web Design', 'Interaction Design', 'Visual Solutions']
+            list: ['3D', 'Interaction Design', 'Visual Solutions']
         },
         {
             icon: 'ui-keyboard',
@@ -17,12 +17,12 @@ function Services(props) {
         },
         {
             icon: 'megaphone',
-            name: 'Marketing',
-            list: ['Commercials', 'Market Research', 'Personal Strategy']
+            name: 'Game Marketing',
+            list: ['Commercials', 'Education', 'Personal Strategy']
         },
         {
             icon: 'life-buoy',
-            name: 'Support',
+            name: 'Game Support',
             list: ['Brainstorming', 'Solution Search', 'Problem Resolving']
         }
     ]
