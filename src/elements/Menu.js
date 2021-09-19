@@ -30,6 +30,11 @@ function Menu() {
             active: false
         },
         {
+            name: 'Contact Us',
+            url: '/contact',
+            active: false
+        },
+        {
             name: 'Join Us',
             url: '/contact',
             active: false

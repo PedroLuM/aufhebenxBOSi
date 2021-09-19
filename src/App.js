@@ -10,6 +10,7 @@ import SingleNews from './pages/SingleNews'
 import Contact from './pages/Contact'
 import Page404 from './pages/404'
 import Portfolio from './pages/Portfolio'
+import MenuPage from './elements/MenuPage';
 
 import ScrollTop from './components/ScrollTop'
 
@@ -25,6 +26,7 @@ function App() {
       <AnimatePresence initial={true} exitBeforeEnter>
         <Switch location={location} key={location.pathname}>
           <Route exact path='/'><Home /></Route>
+          <Route exact path='/Menu'><MenuPage /></Route>
           <Route path='/Portfolio'> <Portfolio /> </Route>
           <Route path='/works-:workId'><SingleWork /></Route>
           <Route path='/about'><About /></Route>
