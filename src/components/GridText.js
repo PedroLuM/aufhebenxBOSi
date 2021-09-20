@@ -1,34 +1,38 @@
 import React from 'react'
-import Badge from 'react-bootstrap/Badge'
+import Alert from 'react-bootstrap/Alert'
+import Button from 'react-bootstrap/Button'
+import useState from 'react'
 
 
 function GridText() {
 
 
-
-
     return (
-        <section id="aboutStory" className="section">
-            <div className="container-fluid-small">
-                <div className="row" >
-                    <h1>
-                        Custormers Logos <Badge bg="success">New</Badge>
-                    </h1>
-                    <h2>
-                        Example heading <Badge bg="secondary">New</Badge>
-                    </h2>
-                    <h3>
-                        Example heading <Badge bg="secondary">New</Badge>
-                    </h3>
-                    <h4>
-                        Example heading <Badge bg="secondary">New</Badge>
-                    </h4>
+        <>
+            <Alert variant="success">
+                <Alert.Heading>How's it going?!</Alert.Heading>
+                <p>
+                    Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget
+                    lacinia odio sem nec elit. Cras mattis consectetur purus sit amet
+                    fermentum.
+                </p>
+                <hr />
+                <div className="d-flex justify-content-end">
+                    <Button variant="outline-success">
+                        Close me y'all!
+                    </Button>
                 </div>
-            </div>
-        </section>
+            </Alert>
 
-    )
+
+        </>
+    );
 }
+
+
+
+
+
 
 
 export default GridText;

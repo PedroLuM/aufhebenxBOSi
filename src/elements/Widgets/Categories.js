@@ -1,15 +1,15 @@
 import React from 'react'
 
-function Categories(){
+function Categories() {
 
-    return(
+    return (
         <>
             <div className="widget">
                 <h5 className="sub-title">Categories</h5>
-                
+
                 <ul>
-                    <li><a href="/">UI/UX Design</a></li>
-                    <li><a href="/">Learning/Course</a></li>
+                    <li><a href="/">GameDesign</a></li>
+                    <li><a href="/">Learning/Courses</a></li>
                     <li><a href="/">Programming</a></li>
                 </ul>
             </div>
