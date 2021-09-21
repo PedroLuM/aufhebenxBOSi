@@ -25,9 +25,7 @@ function Footer() {
             <div className="container-fluid-small">
 
                 <div className="row">
-                    <div className="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-9 footer-title anim-bot">
-                        <h2 className="big-title">DREAM BIGGER, CREATE TOGETHER.</h2>
-                    </div>
+
                     <div className="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-3 footer-project anim-bot">
                         <Link to='/contact'>Start a project</Link>
                     </div>
@@ -35,7 +33,7 @@ function Footer() {
 
                 <div className="row">
                     <div className="col-12 col-sm-12 col-md-12 col-lg-11 col-xl-4 copyright">
-                        <p>Copyright © {date} BOSi .<br />Built with love by Peter.</p>
+                        <p>Copyright © {date} BOSi .<br />Built with love by Peter from aufheben.</p>
                         <div className="footer-menu">
                             <ul>
                                 {socialLinks.map((item, i) => <li key={i}><a href={item.url}>{item.name}</a></li>)}

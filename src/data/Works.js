@@ -5,7 +5,7 @@ const Works = [
       category: '2D ART',
       fixedCategory: '2D ART',
       image: '/assets/images/1.jpg',
-      background: '/assets/images/single-project-hero.jpg',
+      background: '/assets/images/dot-loading-web.mp4',
       headline: 'A new premium experience for users.',
       text: ['Everytime ipsum dolor sit amet cons ecte adip sicings elit. Ear poss pers piciatis enimes ame maiores ler dol res libero totam recusanda enim belemq est.', 'Ipsam voluptatem quia voluptas sit aspernatur autodit aut fugit sed quia consequuntur magniferro. Neque porro quisquam est qui dolor ipsum qui dolor sit amet belemeq consectetur adipisci velit sed qui.'],
       date: 'November 19, 2020',
