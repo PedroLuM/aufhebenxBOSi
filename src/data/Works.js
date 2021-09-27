@@ -1,3 +1,4 @@
+// eslint-disable-next-line 
 const Works = [
    {
       id: 1,
@@ -12,7 +13,7 @@ const Works = [
       servicesLeft: ['Brand New Identity', 'Responsive UI/UX Design', 'iOS & Android Development'],
       servicesRight: ['Design Brainstorming', 'Product & Market Research', 'Selling & Marketing Strategy'],
       imagesLeft: ['project-1-1.jpg', 'project-1-3.jpg'],
-      imagesRight: ['project-1-2.jpg', 'project-1-4.jpg']
+      imagesRight: ['project-1-2.jpg', 'project-1-4.jpg', 'project-1-5.jpg',]
    },
    {
       id: 2,
@@ -26,8 +27,8 @@ const Works = [
       date: 'November 25, 2020',
       servicesLeft: ['Brand New Identity', 'Responsive UI/UX Design', 'iOS & Android Development'],
       servicesRight: ['Design Brainstorming', 'Product & Market Research', 'Selling & Marketing Strategy'],
-      imagesLeft: ['project-2-1.jpg'],
-      imagesRight: ['project-2-2.jpg']
+      imagesLeft: ['project-2-1.jpg', 'project-2-3.jpg'],
+      imagesRight: ['project-2-2.jpg', 'project-2-4.jpg']
    },
    {
       id: 3,

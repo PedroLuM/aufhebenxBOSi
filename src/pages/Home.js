@@ -9,6 +9,7 @@ import Footer from '../components/Footer'
 import Button from 'react-bootstrap/Button'
 import HomeGrid from '../components/HomeGrid';
 import AboutText from '../components/AboutText'
+import slide1 from './slide1.jpg'
 
 
 
@@ -62,11 +63,12 @@ function Home() {
             </motion.div>
             <Header />
             <Hero>
-                <h1 ref={el => titleAnim = el} className="sub-title">Dream bigger,   <br /> Create together   </h1>
+                <h1 ref={el => titleAnim = el} className="sub-title">Dream bigger, <br /> Create together
+                    <img src={slide1} />
+                </h1>
                 <h3 ref={el => subtitleAnim = el} className="big-title">We come to provide the best solutions for art <br /> services to the game, vr/ar, and film industries.</h3>
                 <Button variant="outline-success" href="/Portfolio" size="sm">SEE LATEST</Button>
                 <Button variant="light" href="/contact" size="sm">Getting Started →</Button>
-
             </Hero>
             <Works />
             <GridText />

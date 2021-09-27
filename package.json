@@ -1,8 +1,8 @@
 {
   "name": "aufhebenxbosi",
   "version": "0.1.0",
-  "private": true,
-  "homepage": "",
+  "private": false,
+  "homepage": "/",
   "dependencies": {
     "@chakra-ui/icons": "^1.0.15",
     "@emotion/react": "^11.4.1",

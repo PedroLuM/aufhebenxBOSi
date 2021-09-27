@@ -1,7 +1,7 @@
-import React, {useEffect, useRef} from 'react'
-import {useParams, Link} from "react-router-dom"
-import {gsap} from 'gsap'
-import {motion} from "framer-motion";
+import React, { useEffect, useRef } from 'react'
+import { useParams, Link } from "react-router-dom"
+import { gsap } from 'gsap'
+import { motion } from "framer-motion";
 
 import Hero from '../components/Hero'
 import Header from '../components/Header'
@@ -11,9 +11,9 @@ import WorkNext from '../components/WorkNext'
 
 import Works from '../data/Works'
 
-import {ScrollTrigger} from 'gsap/ScrollTrigger';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
 gsap.registerPlugin(ScrollTrigger);
-
+// eslint-disable-next-line 
 function SingleWork() {
 
     let titleAnim = useRef(null)
@@ -24,11 +24,11 @@ function SingleWork() {
     useEffect(() => {
 
         tl.from(".single-project-hero", {
-                opacity: 0,
-                delay: 1,
-                duration: 1,
-                ease: "power3.inOut"
-            })
+            opacity: 0,
+            delay: 1,
+            duration: 1,
+            ease: "power3.inOut"
+        })
             .from(subtitleAnim, {
                 y: 15,
                 opacity: 0,
@@ -50,15 +50,15 @@ function SingleWork() {
 
     }, [titleAnim, subtitleAnim])
 
-    const {workId} = useParams()
+    const { workId } = useParams()
     const thisWork = Works.find(element => element.id == workId)
-
-    return(
+    // eslint-disable-next-line 
+    return (
         <div>
-            <motion.div 
-                initial={{x:0}}
-                animate={{x:'-100%'}}
-                exit={{x:0}}
+            <motion.div
+                initial={{ x: 0 }}
+                animate={{ x: '-100%' }}
+                exit={{ x: 0 }}
                 transition={LoadingTransition}
                 className="page-trans">
             </motion.div>
@@ -94,8 +94,8 @@ function SingleWork() {
                     </ul>
                 </div>
             </ WorkDescription>
-            <WorkGallery imagesLeft = {thisWork.imagesLeft} imagesRight = {thisWork.imagesRight} />
-            <WorkNext link={thisWork.id < Works.length ? thisWork.id + 1 : thisWork.id } noMore={thisWork.id == Works.length && 'done'}/>
+            <WorkGallery imagesLeft={thisWork.imagesLeft} imagesRight={thisWork.imagesRight} />
+            <WorkNext link={thisWork.id < Works.length ? thisWork.id + 1 : thisWork.id} noMore={thisWork.id == Works.length && 'done'} />
         </div>
     )
 
