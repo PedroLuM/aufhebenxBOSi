@@ -13,6 +13,7 @@ import Portfolio from './pages/Portfolio'
 import MenuPage from './elements/MenuPage';
 
 import ScrollTop from './components/ScrollTop'
+import JoinUs from './pages/JoinUs';
 
 function App() {
 
@@ -33,6 +34,7 @@ function App() {
           <Route path='/news'><News /></Route>
           <Route path='/single-news-:newsId'><SingleNews /></Route>
           <Route path='/contact'><Contact /></Route>
+          <Route path='/join'><JoinUs /></Route>
           <Route ><Page404 /></Route>
         </Switch>
       </AnimatePresence>

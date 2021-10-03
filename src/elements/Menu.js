@@ -36,7 +36,7 @@ function Menu() {
         },
         {
             name: 'Join Us',
-            url: '/contact',
+            url: '/join',
             active: false
         }
     ]

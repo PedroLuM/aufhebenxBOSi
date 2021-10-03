@@ -10,7 +10,9 @@ import Team from '../components/Team'
 import Services from '../components/Services'
 import Footer from '../components/Footer'
 
+
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import CustomerLogo from '../components/CustomerLogo';
 gsap.registerPlugin(ScrollTrigger);
 
 function About() {
@@ -59,6 +61,7 @@ function About() {
             </ Hero>
             <AboutText />
             <Team />
+            <CustomerLogo />
             <Services>
                 <h2 className="big-title">Connecting and engaging the world <br /> through epic
                     entertainment </h2>

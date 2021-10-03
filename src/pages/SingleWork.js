@@ -53,6 +53,7 @@ function SingleWork() {
     const { workId } = useParams()
     const thisWork = Works.find(element => element.id == workId)
     // eslint-disable-next-line 
+
     return (
         <div>
             <motion.div
