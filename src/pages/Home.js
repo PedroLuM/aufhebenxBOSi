@@ -10,6 +10,7 @@ import Button from 'react-bootstrap/Button'
 import HomeGrid from '../components/HomeGrid';
 import AboutText from '../components/AboutText'
 import slide1 from './slide1.jpg'
+import CustomerLogo from '../components/CustomerLogo';
 
 
 
@@ -73,6 +74,7 @@ function Home() {
             <Works />
             <GridText />
             <HomeGrid />
+            < CustomerLogo />
             <AboutText />
             <Footer />
         </div>
