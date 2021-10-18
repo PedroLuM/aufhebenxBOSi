@@ -37,6 +37,10 @@ function Works() {
     const worksFilters = ['all', '2D ART', '3D ART', 'ANIMATION']
     const displayWorks = projects.map((item, i) => <WorkItem key={i} title={item.name} category={item.category} image={item.image} id={item.id} />)
 
+
+
+
+
     return (
         <section id="portfolioSection" className="section">
             <div className="container-fluid-small">

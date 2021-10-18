@@ -33,7 +33,7 @@ function Footer() {
 
                 <div className="row">
                     <div className="col-12 col-sm-12 col-md-12 col-lg-11 col-xl-4 copyright">
-                        <p>Copyright © {date} BOSi .<br />Built with love by Peter from aufheben.</p>
+                        <p>Copyright © {date} BOSi .<br />Powered by aufheben.</p>
                         <div className="footer-menu">
                             <ul>
                                 {socialLinks.map((item, i) => <li key={i}><a href={item.url}>{item.name}</a></li>)}

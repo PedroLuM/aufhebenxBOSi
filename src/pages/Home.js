@@ -11,6 +11,8 @@ import HomeGrid from '../components/HomeGrid';
 import AboutText from '../components/AboutText'
 import slide1 from './slide1.jpg'
 import CustomerLogo from '../components/CustomerLogo';
+import Btn from '../components/Btn'
+import Btn1 from "../components/Btn1"
 
 
 
@@ -67,9 +69,9 @@ function Home() {
                 <h1 ref={el => titleAnim = el} className="sub-title">Dream bigger, <br /> Create together
                     <img src={slide1} />
                 </h1>
-                <h3 ref={el => subtitleAnim = el} className="big-title">We come to provide the best solutions for art <br /> services to the game, vr/ar, and film industries.</h3>
-                <Button variant="outline-success" href="/Portfolio" size="sm">SEE LATEST</Button>
-                <Button variant="light" href="/contact" size="sm">Getting Started →</Button>
+                <h3 ref={el => subtitleAnim = el} className="big-title"> best solutions for art <br /> </h3>
+                <Btn1 />
+                <Btn />
             </Hero>
             <Works />
             <GridText />
