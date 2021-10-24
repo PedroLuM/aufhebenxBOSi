@@ -52,7 +52,7 @@
     }
     .blog-image {
       @media (max-width: 992px) {
-        order: 1;
+        order: 0;
         margin-bottom: 50px;
       }
       img {

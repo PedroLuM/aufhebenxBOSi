@@ -3,7 +3,7 @@ import React from 'react'
 function Hero(props) {
 
     return (
-        <section id="heroSection" className={`section parallax-top-section ${props.class}`} style={{ backgroundImage: `url(${props.background})` }}>
+        <section id="heroSection"  >
             <div className={props.tint}></div>
             <div className="container-fluid-small">
                 <div className="row">

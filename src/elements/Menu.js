@@ -25,7 +25,7 @@ function Menu() {
             active: false
         },
         {
-            name: 'News',
+            name: 'Insights',
             url: '/news',
             active: false
         },

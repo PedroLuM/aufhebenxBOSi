@@ -193,6 +193,7 @@
     perspective: 500px;
     transition: 0.3s;
     border-radius: 3em 3em 3em 3em;
+    text-decoration: none;
 
     &:hover {
       color: #5ef249;
@@ -212,7 +213,7 @@
     }
 
     .front {
-      background: #888;
+      background: #414241;
       color: white;
       transition: 0.3s;
       transform-origin: center center calc(var(--flip-button-height) / -2);
@@ -221,9 +222,11 @@
 
     .back {
       color: white;
-      background: var(--btn-bg);
+      background: #5ef249;
       transform: rotateX(88deg);
       transform-origin: center center calc(var(--flip-button-height) / -2);
+      border-radius: 3em 3em 3em 3em;
+
       transition: 0.3s;
     }
 
@@ -244,10 +247,10 @@
     overflow: hidden;
     transition: 0.5s;
     border-radius: 3em 3em 3em 3em;
-    background-color: #888;
+    background-color: #414241;
 
     &:hover {
-      transform: scale(1.1);
+      transform: scale(1.6);
       background-color: #5ef249;
     }
 

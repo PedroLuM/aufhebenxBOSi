@@ -4,11 +4,11 @@ import ArticlesItem from '../elements/ArticlesItem'
 
 import ArticlesData from '../data/News'
 
-function Articles(){
+function Articles() {
 
-    const displayArticles = ArticlesData.map((item, index) => <ArticlesItem key={index} date={item.date} title={item.title} image={item.image} id={item.id} />)
+    const displayArticles = ArticlesData.map((item, index) => <ArticlesItem key={index} title={item.title} image={item.image} id={item.id} />)
 
-    return(
+    return (
         <section id="newsSection" className="section">
             <div className="container-fluid-small">
                 <div className="row">
@@ -17,7 +17,7 @@ function Articles(){
             </div>
         </section>
     )
-    
+
 }
 
 export default Articles

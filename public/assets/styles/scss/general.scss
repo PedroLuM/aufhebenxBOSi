@@ -83,6 +83,7 @@ ul {
   list-style: none;
   margin: 0;
   padding: 0;
+  text-decoration: none;
   li {
     font-weight: 300;
     line-height: 2.4;
@@ -95,6 +96,7 @@ ul {
 a {
   transition: 0.25s cubic-bezier(0.75, 0.25, 0.25, 0.75);
   position: relative;
+  text-decoration: none;
   @media (max-width: 567px) {
     font-size: 0.9em;
   }
@@ -210,6 +212,11 @@ a {
     @media (max-width: 768px) {
       margin-right: 5px;
     }
+  }
+  a:link,
+  a:visited,
+  a:active {
+    text-decoration: none;
   }
   a {
     position: absolute;

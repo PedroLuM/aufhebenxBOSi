@@ -1,7 +1,7 @@
 // All style for Hero Component
 
 #heroSection {
-  height: 100vh;
+  height: 100%;
   width: 100% !important;
   display: flex;
   align-items: center;
@@ -39,7 +39,8 @@
 img {
   max-width: 75%;
   max-height: 75%;
-  transform: scale(1);
+  float: right;
+  transform: scale(1.25);
   opacity: 1;
   transition: 0.4s cubic-bezier(0.75, 0.25, 0.25, 0.75);
 }

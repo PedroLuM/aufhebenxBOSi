@@ -61,7 +61,7 @@ const FormSignup = ({ submitForm }) => {
         </div>
 
         <button className='form-input-btn' type='submit'>
-          Send Message
+          SUBMIT
         </button>
 
       </form>

@@ -6,7 +6,6 @@ import Hero from '../components/Hero'
 import Header from '../components/Header'
 import Works from '../components/Works'
 import Footer from '../components/Footer'
-import Button from 'react-bootstrap/Button'
 import HomeGrid from '../components/HomeGrid';
 import AboutText from '../components/AboutText'
 import slide1 from './slide1.jpg'
@@ -66,15 +65,18 @@ function Home() {
             </motion.div>
             <Header />
             <Hero>
-                <h1 ref={el => titleAnim = el} className="sub-title">Dream bigger, <br /> Create together
-                    <img src={slide1} />
-                </h1>
-                <h3 ref={el => subtitleAnim = el} className="big-title"> best solutions for art <br /> </h3>
                 <Btn1 />
                 <Btn />
+                <h1 ref={el => titleAnim = el} className="sub-title">
+                    <img src={slide1} />
+                </h1>
+
+                <h3 ref={el => subtitleAnim = el} className="big-title"> <br /> </h3>
+
             </Hero>
+            <Btn1 />
+            <Btn />
             <Works />
-            <GridText />
             <HomeGrid />
             < CustomerLogo />
             <AboutText />
